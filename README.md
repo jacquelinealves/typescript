@@ -1,1 +1,1 @@
-# typescript-doc
+# TypeScript
