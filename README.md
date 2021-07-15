@@ -7,4 +7,3 @@
 ### Criar o arquivo tsconfig.json
 
 `tsc --init`
-˜

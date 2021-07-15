@@ -1,6 +1,6 @@
 // Type Inference
 
-let message = "mensagem definida";
+let message2 = "mensagem definida";
 // nesse caso o próprio ts entende que a variável é do tipo string
 
 // Type Aliases
