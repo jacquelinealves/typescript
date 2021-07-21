@@ -1,4 +1,6 @@
-// Type Aliases with Intersection
+/**
+ * Type Aliases with Intersection
+ */
 
 type accountInfo = {
   id: number;

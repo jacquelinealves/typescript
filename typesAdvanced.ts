@@ -1,8 +1,14 @@
-// Type Inference
+/**
+ * TYPE INFERENCE
+ */
 
 let message2 = "mensagem definida"; // nesse caso o próprio ts entende que a variável é do tipo string
 
-// Type Aliases (Atalho/Apelido)
+/**
+ * TYPE ALIASES
+ *
+ * (Atalho/Apelido)
+ */
 
 type Uid = number | string; // Type Union
 
@@ -18,7 +24,7 @@ function logInfo(uid: Uid, user: string) {
 logInfo(123, "Jacqueline");
 logInfo("123", "Jacqueline");
 
-// Example #2
+// Exemplo #2
 type Platform = "Windows" | "Linux" | "Mac OS";
 
 function renderPlatform(platform: Platform) {

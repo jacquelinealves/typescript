@@ -1,7 +1,15 @@
-// Classes não são obrigatórias mas são bastante úteis
-// ABSTRACT não posso criar uma classe a partir dela mas pode-se extender a partir dela, ou seja, ela pode ser um modelo para outras classes mas não é possível alterar as informações dela
+/**
+ * CLASS
+ *
+ * Classes não são obrigatórias mas são bastante úteis
+ * Deve-se utilizar o nome da classe com letra maiúscula
+ */
 
-// Usar o nome da classe com letra maiúscula
+/**
+ * ABSTRACT
+ *
+ * Não pode-se criar uma classe a partir dela mas pode-se extender a partir dela, ou seja, ela pode ser um modelo para outras classes mas não é possível alterar as informações dela
+ */
 abstract class UserAccount {
   // PUBLIC permite qualquer alteração
   public name: string;
@@ -44,8 +52,12 @@ class CharAccount extends UserAccount {
     this.level = level;
   }
 
-  // Accessors SET e GET
-  // Pegar propriedades dentro da classe
+  /**
+   * SET / GET
+   *
+   * Accessors
+   * Pegar propriedades dentro da classe
+   */
   get getLevel() {
     // Função com mais informações
     console.log("------- GET -------");
@@ -58,8 +70,7 @@ class CharAccount extends UserAccount {
 }
 
 const john = new CharAccount("John", 45, "johnmaster", 80);
-console.log(john);
-// CharAccount {
+console.log(john); // CharAccount {
 //   name: 'John',
 //   age: 45,
 //   nickname: 'johnmaster',

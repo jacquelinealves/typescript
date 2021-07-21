@@ -1,16 +1,14 @@
-/*
- *****
+/**
  * ALIASES
- *****
  */
 
-/*
-Mais recomendado na maioria das vezes
-Mais fácil fazer intersessões/uniões
-Trabalhar mais facilmente com tipos primitivos
-React - Props: utilizar types
-Como não podemos duplicar types, acaba por ser mais seguro
-*/
+/**
+ * Mais recomendado na maioria das vezes
+ * Mais fácil fazer intersessões/uniões
+ * Trabalhar mais facilmente com tipos primitivos
+ * React - Props: utilizar types
+ * Como não podemos duplicar types, acaba por ser mais seguro
+ */
 
 // definição
 type GameT = {
@@ -43,17 +41,14 @@ type JQuery = { a: string };
 type JQuery = { b: string }; // repetição não é permitido
 
 /*
- *****
  * INTERFACE
- *****
  */
 
-/* 
-Vantagens:
-Quando estiver criando libs, prefira interfaces, porque são mais extensivas
-
-Criando objetos/classes (POO)
-*/
+/**
+ * Vantagens:
+ * Quando estiver criando libs, prefira interfaces, porque são mais extensivas
+ * Criando objetos/classes (POO)
+ */
 
 // definição
 interface Game {
@@ -86,7 +81,6 @@ interface Tuple {
 [1, 2, 3, 4] as Tuple;
 
 // pode ter múltiplas declarações, o interface agrupa os que possuem o mesmo nome
-
 interface JQuery {
   a: string;
 }

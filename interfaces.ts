@@ -1,6 +1,9 @@
-// Funciona somente no TS
-// INTERFACE: Conjunto de dados pra descrever a estrutura de um OBJETO
-
+/**
+ * INTERFACE
+ *
+ * Conjunto de dados pra descrever a estrutura de um OBJETO
+ * Funciona somente no TypeScript
+ */
 interface Game {
   title: string;
   description: string;
@@ -27,8 +30,11 @@ if (tlou.getSimilars) {
   tlou.getSimilars(tlou.title);
 }
 
-// EXTENDS
-// Extensão da classe Gaem
+/**
+ * EXTENDS
+ * 
+ * Extensão da classe Game
+ */
 interface DLC extends Game {
   originalGame: Game;
   newContent: string[];
@@ -43,8 +49,11 @@ const leftbehind: DLC = {
   newContent: ["3 hours story", "new characters"],
 };
 
-// IMPLEMENT
-// a classe que é implementada, precisa ter todos os tipos que são descritos na interface
+/**
+ * IMPLEMENT
+ * 
+ * A classe que é implementada precisa ter todos os tipos que são descritos na interface
+ */
 class CreateGame implements Game {
   title: string;
   description: string;
