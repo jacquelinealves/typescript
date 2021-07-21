@@ -1,5 +1,5 @@
 /**
- * Type Aliases with Intersection
+ * TYPE ALIASES WITH INTERSECTION
  */
 
 type accountInfo = {
